@@ -30,6 +30,8 @@ jobs:
           if [ -f .github/autograding_tests/mcon364/las/touro/edu/autograding/MainSignatureTest.java ]; then
             cp .github/autograding_tests/mcon364/las/touro/edu/autograding/MainSignatureTest.java src/test/java/mcon364/las/touro/edu/
           fi
+      - name: Set USER for autograder
+        run: echo "USER=${{ github.actor }}" >> $GITHUB_ENV
       - name: Run autograding tests
         uses: education/autograding@v1
 

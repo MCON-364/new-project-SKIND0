@@ -11,7 +11,7 @@
     {
       "name": "Run unit tests (mvn test)",
       "setup": "",
-      "run": "USER=TestUser mvn -B -DskipTests=false test",
+      "run": "USERNAME=TestUser mvn -B -DskipTests=false test",
       "input": "",
       "output": "",
       "comparison": "included",

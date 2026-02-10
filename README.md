@@ -18,6 +18,7 @@ public static Optional<String> getUserName(String envVarName);
 - Calls `getUserName`
 - Uses `var` for local variables where the type is obvious
 - Constructs the greeting using `StringBuilder`
+- Constructs the greeting using `StringBuilder`
 
 ```java
 public static String getGreeting(String envVarName);

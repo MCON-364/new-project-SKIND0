@@ -1,18 +1,29 @@
+package mcon364.las.touro.edu;
+
 import java.util.Optional;
 
-public class Main{
-    public static void main(String[] args){
+public class Main {
+    public static void main(String[] args) {
+        //4.
+        //getGreeting("USERNAME");
+        //getGreeting("NO_SUCH_VAR");
+
 
     }
 
-    public static Optional<String> getUserName(String envVariable) {
-        System.getenv(envVariable);
-        return Optional.ofNullable(envVariable);
-    }
+    //2.
+    //public static String getGreeting(String envVarName){
+        //getUserName();
+        //i don't understand anything.
+    //}
 
-    public static String getGreeting(String envVarName){
-        Optional<String> greeting = getUserName(envVarName);
+    //1.
+    //public static Optional<String> getUserName (String envVarName){
+        //huh
+    //}
 
+    //3.
+    public static void processValues(){
 
     }
 }

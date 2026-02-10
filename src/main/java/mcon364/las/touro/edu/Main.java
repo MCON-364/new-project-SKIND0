@@ -43,7 +43,7 @@ public class Main {
     }
 
     //3.
-    public static Integer processValues(List<List<Integer>> data) {
+    public static int processValues(List<List<Integer>> data) {
         int processedRows = 0;
 
         outerLoop:
